@@ -11,6 +11,9 @@ import org.springframework.stereotype.Service;
 import com.javaspringclub.entity.User;
 import com.javaspringclub.repository.UserRepository;
 
+/**
+ * implementation of UserService
+ */
 @Service
 @Transactional
 public class UserServiceImpl implements UserService {
@@ -41,6 +44,11 @@ public class UserServiceImpl implements UserService {
 		return user;
 	}
 
+	/**
+	 * save the user
+	 * @param user
+	 * @return
+	 */
 	@Override
 	public boolean saveUser(User user) {
 		try {
