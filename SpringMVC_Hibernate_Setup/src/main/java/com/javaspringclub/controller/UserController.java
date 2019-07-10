@@ -17,6 +17,9 @@ import org.springframework.web.servlet.ModelAndView;
 import com.javaspringclub.entity.User;
 import com.javaspringclub.service.UserService;
 
+/**
+ * userControler
+ */
 @Controller
 public class UserController {
 	// Constructor based Dependency Injection
